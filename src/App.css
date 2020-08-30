@@ -36,3 +36,54 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.cardLogin {
+  padding: 20px;
+  background-color: fff;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1),
+    0 0 0 1px rgba(10, 10, 10, 0.02);
+}
+
+.cardProfile {
+  text-align: left;
+  max-width: 24rem;
+  background-color: fff;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1),
+    0 0 0 1px rgba(10, 10, 10, 0.02);
+}
+
+.profileTitle {
+  border-bottom: 1px solid #f4f2fb;
+  padding: 20px;
+}
+
+.profilePicture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2rem;
+  padding: 20px;
+}
+
+.profileContent {
+  padding: 20px;
+  display: flex;
+}
+
+.profileContentTitle {
+  display: block;
+  padding-right: 50px;
+}
+
+.profileContentData {
+  display: flex;
+  flex-direction: row;
+}
